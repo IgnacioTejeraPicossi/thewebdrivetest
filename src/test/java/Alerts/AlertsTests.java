@@ -20,7 +20,7 @@ public class AlertsTests extends BaseTests {
         alertsPage.triggerConfirm();
         String text = alertsPage.alert_getText();
         alertsPage.alert_clickToDismiss();
-        assertEquals(text, "I am a JS Confirm", "Alert text incorrect");
+        assertEquals(text, "I am a JS Confirm", "Alert gettext incorrect");
     }
     @Test
     public void testSetInputInAlert(){
@@ -30,7 +30,7 @@ public class AlertsTests extends BaseTests {
         String text = "TAU rocks";
         alertsPage.alert_setInput(text);
         alertsPage.alert_clickToAccept();
-        assertEquals(alertsPage.getResult(),"You entered: TAU rocks" , "Result text incorrect");
+        assertEquals(alertsPage.getResult(),"You entered: TAU rocks" , "Result gettext incorrect");
 
     }
 
