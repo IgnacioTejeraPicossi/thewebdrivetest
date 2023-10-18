@@ -24,8 +24,7 @@ public class DynamicLoadingExample2Page {
     public void clickStart() {
         driver.findElement(startButton).click();
 
-        /* Ignacio comment: 
-        this version don't work : error i WebDriverWait  */
+        /* Ignacio comment:  this version don't work : error i WebDriverWait  */
 //        WebDriverWait wait = new WebDriverWait(driver, 5);
 //        wait.until(ExpectedConditions.presenceOfElementLocated(loadedText));
 

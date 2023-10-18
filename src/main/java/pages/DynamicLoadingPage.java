@@ -9,8 +9,7 @@ public class DynamicLoadingPage {
 
     private WebDriver driver;
     private String linkXpath_Format = ".//a[contains(text(), '%s')]";
-    /* Ignacio comment: 
-        use Example 1 and Example2  */
+    /* Ignacio comment:  use Example 1 and Example2  */
     private By link_Example1 = By.xpath(String.format(linkXpath_Format, "Example 1"));
     private By link_Example2 = By.xpath(String.format(linkXpath_Format, "Example 2"));
 

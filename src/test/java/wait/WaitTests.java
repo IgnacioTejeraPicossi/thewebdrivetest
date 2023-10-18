@@ -7,6 +7,8 @@ import static org.testng.Assert.assertEquals;
 
 public class WaitTests extends BaseTests {
 
+    /*Test for  amicLoadingExample1Pag and amicLoadingExample2Pag*/
+
     @Test
     public void testWaitUntilHidden(){
         var loadingPage = homePage.clickDynamicLoading().clickExample1();
