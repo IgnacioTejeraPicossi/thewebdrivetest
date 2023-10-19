@@ -51,6 +51,20 @@ public class HomePage {
         clickLink("WYSIWYG Editor");
         return new WysiwygEditorPage(driver);
     }
+
+    public LargeAndDeepDomPage clickLargeAndDeepDom(){
+        String linkText;
+        clickLink("Large & Deep DOM");
+        return new LargeAndDeepDomPage(driver);
+    }
+
+    public InfiniteScrollPage clickInfiniteScroll(){
+        String linkText;
+        clickLink("Infinite Scroll");
+        return new InfiniteScrollPage(driver);
+    }
+
+
     public DynamicLoadingPage clickDynamicLoading(){
         String linkText;
         clickLink("Dynamic Loading");
