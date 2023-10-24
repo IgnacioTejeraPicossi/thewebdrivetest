@@ -1,3 +1,4 @@
 # Test Selenium WebDriver
-Sample application for test Selenium WebDriver for Chrome browser.
+Simple application for testing WebDriver Selenium in the Chrome browser, showing the different types of tests that can be performed. 
+
 
