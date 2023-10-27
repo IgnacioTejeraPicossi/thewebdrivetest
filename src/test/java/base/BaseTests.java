@@ -56,14 +56,24 @@ public class BaseTests {
         return new WindowManager(driver);
     }
 
+
     private ChromeOptions getChromeOptions(){
         ChromeOptions options = new ChromeOptions();
         options.addArguments("disable-infobars");
         //options.setHeadless(true);
         return options;
     }
-
     public CookieManager getCookieManager(){
         return new CookieManager(driver);
     }
+
+    /* example of create new Cookie in chapter 14
+    public CookieManager getCookieManager(){
+        Cookie cookie = new Cookie.Builder("tau", "123")
+                .domain("https://the-internet.herokuapp.com/")
+                .build();
+        driver.manage().addCookie(cookie);
+        return new CookieManager(driver);
+    }
+    */
 }
