@@ -69,4 +69,11 @@ Dependencies are managed via `pom.xml`:
 
 This project is ideal for learning and demonstrating best practices in Selenium WebDriver automation with Java. 
 
+🛠 Technologies & Tools
+Java 17
+Selenium WebDriver 4.12.1
+TestNG 7.7.0
+JUnit 4.12
+Maven
+ChromeDriver
 
